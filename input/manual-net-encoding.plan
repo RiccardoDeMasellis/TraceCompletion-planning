@@ -1,0 +1,225 @@
+fluents: p0. p1. p2. p3. p4. p5. p6. p7. p8. p9. p10. p11. p12. p13. p14. p15. p16. p17. p18. p19. p20. p21. p22. p23. p24. p25. p26. p27. p28. p29.
+
+actions: a. b. c. d. e. f. g. h. i. l. m. n. o. p. q. r. s. t. u. v. z. aa. ab. ac. ad. ae. af. ag. ah. ai. al. am. an. ao. ap. aq. ar. as. at. au. av. az. ba.
+
+always:
+
+executable a if p0.
+caused -p0 after a.
+caused p1 after a.
+
+executable b if p1.
+caused -p1 after b.
+caused p2 after b.
+
+executable c if p2.
+caused -p2 after c.
+caused p3 after c.
+
+executable d if p2.
+caused -p2 after d.
+caused p3 after d.
+
+executable e if p2.
+caused -p2 after e.
+caused p3 after e.
+
+executable f if p2.
+caused -p2 after f.
+caused p3 after f.
+
+executable g if p3.
+caused -p3 after g.
+caused p4 after g.
+
+executable h if p3.
+caused -p3 after h.
+caused p4 after h.
+
+executable i if p4.
+caused -p4 after i.
+caused p5 after i.
+
+executable l if p4.
+caused -p4 after l.
+caused p5 after l.
+
+executable m if p5.
+caused -p5 after m.
+caused p6 after m.
+
+executable n if p5.
+caused -p5 after n.
+caused p7 after n.
+
+executable o if p6.
+caused -p6 after o.
+caused p7 after o.
+
+executable p if p6.
+caused -p6 after p.
+caused p7 after p.
+
+executable q if p7.
+caused -p7 after q.
+caused p18 after q.
+
+executable r if p7.
+caused -p7 after r.
+caused p18 after r.
+caused p8 after r.
+caused p9 after r.
+caused p10 after r.
+caused p11 after r.
+caused p12 after r.
+
+executable s if p8.
+caused -p8 after s.
+caused p13 after s.
+
+executable t if p8.
+caused -p8 after t.
+caused p13 after t.
+
+executable u if p9.
+caused -p9 after u.
+caused p14 after u.
+
+executable v if p9.
+caused -p9 after v.
+caused p14 after v.
+
+executable z if p10.
+caused -p10 after z.
+caused p15 after z.
+
+executable aa if p11.
+caused -p11 after aa.
+caused p16 after aa.
+
+executable ab if p11.
+caused -p11 after ab.
+caused p16 after ab.
+
+executable ac if p12.
+caused -p12 after ac.
+caused p17 after ac.
+
+executable ad if p12.
+caused -p12 after ad.
+caused p17 after ad.
+
+executable ae if p13, p14, p15, p16, p17.
+caused -p13 after ae.
+caused -p14 after ae.
+caused -p15 after ae.
+caused -p16 after ae.
+caused -p17 after ae.
+caused p18 after ae.
+
+executable af if p18.
+caused -p18 after af.
+caused p19 after af.
+caused p20 after af.
+
+executable ag if p18.
+caused -p18 after ag.
+caused p26 after ag.
+
+executable ah if p18.
+caused -p18 after ah.
+caused p23 after ah.
+
+executable ai if p19.
+caused -p19 after ai.
+caused p21 after ai.
+
+executable al if p19.
+caused -p19 after al.
+caused p21 after al.
+
+executable am if p20.
+caused -p20 after am.
+caused p22 after am.
+
+executable an if p21, p22.
+caused -p21 after an.
+caused -p22 after an.
+caused p23 after an.
+
+executable ao if p23.
+caused -p23 after ao.
+caused p25 after ao.
+
+executable ap if p23.
+caused -p23 after ap.
+caused p24 after ap.
+
+executable aq if p24.
+caused -p24 after aq.
+caused p25 after aq.
+
+executable ar if p25.
+caused -p25 after ar.
+caused p26 after ar.
+
+executable as if p26.
+caused -p26 after as.
+caused p27 after as.
+
+executable at if p26.
+caused -p26 after at.
+caused p27 after at.
+
+executable au if p27.
+caused -p27 after au.
+caused p28 after au.
+
+executable av if p27.
+caused -p27 after av.
+caused p3 after av.
+
+executable az if p28.
+caused -p28 after az.
+caused p29 after az.
+
+executable ba if p28.
+caused -p28 after ba.
+caused p2 after ba.
+
+noConcurrency.
+
+inertial p1.
+inertial p2.
+inertial p3.
+inertial p4.
+inertial p5.
+inertial p6.
+inertial p7.
+inertial p8.
+inertial p9.
+inertial p10.
+inertial p11.
+inertial p12.
+inertial p13.
+inertial p14.
+inertial p15.
+inertial p16.
+inertial p17.
+inertial p18.
+inertial p19.
+inertial p20.
+inertial p21.
+inertial p22.
+inertial p23.
+inertial p24.
+inertial p25.
+inertial p26.
+inertial p27.
+inertial p28.
+inertial p29.
+
+initially: p0.
+
+goal: p29, not p0, not p1, not p2, not p3, not p4, not p5, not p6, not p7, not p8, not p9, not p10, not p11, not p12, not p13, not p14, not p15, not p16, not p17, not p18, not p19, not p20, not p21, not p22, not p23, not p24, not p25, not p26, not p27, not p28 ?
+
