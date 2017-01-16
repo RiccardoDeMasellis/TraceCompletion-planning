@@ -4,4 +4,6 @@
 *.gv
 *.iml
 
-/lib
+/lib/emcl
+
+src/man/java/Main.java
