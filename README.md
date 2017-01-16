@@ -12,7 +12,7 @@ public class Main {
 
       /* try {
             FileWriter fwr = new FileWriter(new File("out/stat"));
-            PlannerCaller.completeTracePlanlength("/Users/demas/Lavoro/Paperi/DataWFNets-planning/experiments/manual-net-encoding-trace.plan", "prova1", 19, fwr);
+            PlannerCaller.completeTracePlanlength("./input/manual-net-encoding-trace.plan", "prova1", 19, fwr);
         } catch (IOException e) {
             e.printStackTrace();
         } */
@@ -20,7 +20,7 @@ public class Main {
         try {
             FileWriter fwa = new FileWriter(new File("out/stat1"));
             FileWriter fwi = new FileWriter(new File("out/stat2"));
-            PlannerCaller.completeTrace("/Users/demas/Lavoro/Paperi/DataWFNets-planning/experiments/manual-net-encoding-trace.plan", "prova1", fwa, fwi);
+            PlannerCaller.completeTrace("./input/manual-net-encoding-trace.plan", "prova1", fwa, fwi);
         } catch (IOException e) {
             e.printStackTrace();
         }
